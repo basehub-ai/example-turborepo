@@ -61,8 +61,8 @@ importers:
   apps/web:
     dependencies:
       basehub:
-        specifier: ^1.2.0
-        version: 1.2.0(react-dom@18.2.0)(react@18.2.0)
+        specifier: 1.2.1-next.0
+        version: 1.2.1-next.0(react-dom@18.2.0)(react@18.2.0)
       next:
         specifier: ^13.4.19
         version: 13.4.19(react-dom@18.2.0)(react@18.2.0)
@@ -1495,10 +1495,9 @@ packages:
     resolution: {integrity: sha512-AKpaYlHn8t4SVbOHCy+b5+KKgvR4vrsD8vbvrbiQJps7fKDTkjkDry6ji0rUJjC0kzbNePLwzxq8iypo41qeWA==}
     dev: true
 
-  /basehub@1.2.0(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-cnbWwvVmc8ER6chhZPWN6fIkvNxBTS9zU7pSInt+dHLtNMAuzC8K41JaVZrwrP6FSgZZzpGL4u/7sL7GX6viiA==}
+  /basehub@1.2.1-next.0(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-IbxANjwMrGyaPcg5oSFNBwnpMpfkqQ00KvtPUJzicNSOyOTBWZwfuep8dfOonFNmzPJUND2+PMBwcWvuT1rFtA==}
     hasBin: true
-    requiresBuild: true
     peerDependencies:
       react: ^18.2.0
       react-dom: ^18.2.0
